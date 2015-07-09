@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>colorize</title>
+    <script>
+        function change_color() {
+            var col = document.getElementById("color-code").value;
+            document.body.style.backgroundColor = "#"+col;
+        };
+    </script>
+</head>
+<body>
+</body>
+        <input id="color-code" type="text" name="color code" maxlength="6">
+        <button onclick="change_color()">Change</button>
+</html>
